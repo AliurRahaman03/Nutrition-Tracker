@@ -196,6 +196,6 @@ app.get("/track/:userId/:date",verifyToken,async(req,res)=>{
 })
 
 
-app.listen(8000,()=>{
+app.listen(10000,0.0.0.0,()=>{
     console.log("server is running");
 })
